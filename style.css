@@ -1,0 +1,27 @@
+#sketches{
+    float: right;
+}
+
+body{
+    animation-name: myAnimation2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes myAnimation2{
+    from{background-color: rgb(27, 245, 190);}
+    to{background-color: rgb(234, 0, 255);}
+}
+
+canvas{
+    border: 5px solid red;
+    animation-name: myAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes myAnimation{
+    from{box-shadow: 1px 1px 20px blue;}
+    to{box-shadow: 1px 1px 10px yellow;}
+}
+#timer{
+    font-size: 100;
+}
